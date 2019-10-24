@@ -2,7 +2,8 @@
 
 ### Requirements
 First, ensure you have the following installed:
-    - NodeJS - Download and Install latest version of Node: NodeJS
+
+    - NodeJS, Download and Install latest version of Node: <a href="https://nodejs.org/">NodeJS</a>
     - NPM (Node Package Manager)
 
 ### Get the code
