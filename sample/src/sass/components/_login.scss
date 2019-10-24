@@ -1,0 +1,36 @@
+.login{
+	display: none;
+	width: 400px;
+	margin: 50px auto;
+	background: $white;
+	padding: 25px 15px 30px 15px;
+	box-shadow: 12px 0 15px -8px rgba(0, 0, 0, 0.1), -12px 0 8px -8px rgba(0, 0, 0, 0.1);
+	& h1{
+		font-size: 26px;
+		font-weight: 400;
+		margin-top: 0;
+		text-align: center;
+	}
+	& .group{
+		padding: 10px 0;
+		& span{
+			display: inline-block;
+			width: 80px;
+		}
+		& input{
+			width: calc(100% - 90px);
+			height: 25px;
+			text-indent: 10px;
+		}
+
+	}
+	& button{
+		border: #03a9f4 solid 1px;
+		background: #03a9f4;
+		color: #fff;
+		padding: 8px 15px;
+		margin-top: 15px;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+}

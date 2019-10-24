@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="./dist/css/app.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Socket.io Chat</title>
+</head>
+
+<body>
+    <div class="sharable">Share this link: <span></span></div>
+    <div class="chatbox">
+
+        <div class="conversation" id="conversation">
+            <ul id="lists"></ul>
+            <div class="typing"><img src="./img/typing.gif"></div>
+        </div>
+        <div class="input">
+            <form id="inputForm" method="post">
+                <div class="group">
+                    <div class="input-text">
+                        <textarea spellcheck="false" class="inputMessage"></textarea>
+                    </div>
+                    <div class="submit">
+                        <button type="submit" disabled><i class="icon-send"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="login">
+        <form method="get">
+            <h1>Create Room</h1>
+            <div class="group"><span>Room</span> <input type="text" id="room" name="room" placeholder="Enter your room id." required></div>
+            <div class="group"><span>Name</span> <input type="text" id="username" name="username" placeholder="Enter your name." required></div>
+            <button>Open or Join Room</button>
+        </form>
+    </div>
+    <script src="./dist/js/jquery.min.js"></script>
+    <script src="./dist/js/socket.io.js"></script>
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>
