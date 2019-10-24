@@ -1,4 +1,4 @@
-# SocketIO Simple chatbox.
+## SocketIO Simple chatbox.
 
 ### Requirements
 First, ensure you have the following installed:
